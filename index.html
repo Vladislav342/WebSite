@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konstanta</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/bukvak.ico" type="images/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="gallery.css">
+	<link rel="stylesheet" href="animate.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="200">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><p id="br">KONSTANTA</p></a>
+				</div>	
+				
+			<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#" class="fa fa-home" title="Home" id="que"></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="rob">Товары<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="t1">
+								<li><a href="#name1">Прямые диваны</a></li>
+								<li><a href="#name2">Угловые диваны</a></li>
+								<li><a href="#name6">Кровати</a></li>
+								<li><a href="#name4">Кухни</a></li>
+								<li><a href="#name5">Последние новости</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="rob">Разное<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="t1">
+								<li><a href="aboutus.html">О компании</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+								<li><a href="Shops.html">Магазины</a></li>
+							</ul>
+						</li>
+						<li><a href="Jaloba.html" class="fa fa-envelope" title="Пожаловаться" id="que"></a></li>
+						<li><a href="Dostavka.html" class="fa fa-truck" title="Доставка" id="que"></a></li>
+						<li><a href="https://www.google.com.ua/?hl=ru" class="glyphicon glyphicon-off" title="Выйти" id="que1"></a></li>
+					</ul>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="headerwrap">
+		<div class="container-fluid">
+			<div class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2s" data-wow-offset="200">
+
+				<form role="form" class="poisk">
+					<div class="form-group">
+						<div class="row">
+							<div class="col-lg-4">
+								<div id="time">
+									<span>hh</span>:<span>mm</span>:<span>ss</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2">
+								<label for="number">От</label>
+								<input type="number" placeholder="Введите цену" id="ot">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2">
+								<label for="number">До</label>
+								<input type="number" placeholder="Введите цену" id="do">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<input type="button" class="btn btn-danger" value="Поиск" id="put"  onclick="Search()">
+							</div>
+						</div>
+					</div>
+				</form>
+				
+				<div class="trr">
+					<blockquote class="blockquote-reverse">
+					Дорогостоящие материалы или брендовая мебель не сделают интерьер удобным для жизни, если изначальная концепция дизайна продумана плохо.
+					<footer>Келли Хоппен</footer>
+					</blockquote>
+				</div>
+			<!--<p><a href="#">Scroll</a></p>-->
+			</div>	
+		</div>	
+	</div>
+	<a name="name1"></a>
+
+	<br><br>
+
+	<div id="content1">
+		<div id="sofa1">
+			<h1>Прямые диваны</h1>
+			<br>
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/pal-1443630133.jpg" class="kuku">
+							<figcaption class="kiss2">PHILADELFIA</figcaption>
+							<figcaption class="kiss3"> от <b>12 500</b> грн</figcaption>
+						</div>
+					</div> 
+
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/divan-tokio-2.png"  class="kuku">
+							<figcaption class="kiss2">Valencia</figcaption>
+							<figcaption class="kiss3"> от <b>4 580 </b>грн</figcaption>
+						</div>
+					</div> 
+			
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/pal-1443634162.jpg"  class="kuku">
+							<figcaption class="kiss2">Pavane</figcaption>
+							<figcaption class="kiss3"> от <b>8 720 </b>грн</figcaption>
+						</div>
+					</div>
+			
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/Holywood.jpg" class="kuku">
+							<figcaption class="kiss2">Shiraz</figcaption>
+							<figcaption class="kiss3"> от <b>10 085 </b>грн</figcaption>
+						</div>
+					</div> 
+
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.7s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/60365.jpg" class="kuku">
+							<figcaption class="kiss2">Amelia</figcaption>
+							<figcaption class="kiss3"> от <b>8 005 </b>грн</figcaption>
+						</div>
+					</div> 
+
+					<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.7s" data-wow-offset="50"> 
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/кухни/good_15165236694610.jpg" class="kuku">
+							<figcaption class="kiss2">Aurica</figcaption>
+							<figcaption class="kiss3"> от <b>9 600 </b>грн</figcaption>
+						</div> 
+					</div> 
+				</div>
+			</div>
+		</div>
+
+	<a name="name2"></a>
+
+	<div id="sofa2">
+		<h1>Угловые диваны</h1>
+		<br>
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/orig.jpg" class="kuku">
+						<figcaption>Turin</figcaption>
+						<figcaption class="kiss3"> от <b>13 795 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/sovremennye_divany_7.jpg" class="kuku">
+						<figcaption>Barcelona</figcaption>
+						<figcaption class="kiss3"> от <b>12 200 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/756-caliaitalia-divan-uglovoy-8345-product-10000-10000.jpeg" class="kuku">
+						<figcaption>Bosfor</figcaption>
+						<figcaption class="kiss3"> от <b>23 600 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/a203152c-c9a9-47c6-bcbe-b5adbf1047c2.jpg" class="kuku">
+						<figcaption >Braun</figcaption>
+						<figcaption class="kiss3"> от <b>12 910 </b>грн</figcaption>
+					</div>
+				</div>
+
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.7s" data-wow-offset="50"> 
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/6-sovetov-po-vyiboru-divana-dlya-bolshoy-semi.jpg" class="kuku">
+						<figcaption>Bozen</figcaption>
+						<figcaption class="kiss3"> от <b>23 610 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/divan_nikol_1_amers.jpg" class="kuku">
+						<figcaption>Verona</figcaption>
+						<figcaption class="kiss3"> от <b>13 755 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/uglovoj-divan-viktoriya-2-1-s-uvelichennym-yaschikom-1400-delfin-6267-14.jpg" class="kuku">
+						<figcaption>Dallas</figcaption>
+						<figcaption class="kiss3"> от <b>7 250 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/8816489c28ed37356c53f8695c7cab60.jpg" class="kuku">
+						<figcaption>Drezden</figcaption>
+						<figcaption class="kiss3"> от <b>13 865 </b>грн</figcaption>
+					</div>
+				</div>
+
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="1.4s" data-wow-offset="50"> 
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/угловыедиваны/c471fa418131545a81e061ab1f21d27f.jpg" class="kuku">
+						<figcaption>Evropa</figcaption>
+						<figcaption class="kiss3"> от <b>13 705 </b>грн</figcaption>
+					</div>
+
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/угловыедиваны/viktoria-2-1-s-podgolovnikom.jpg" 	class="kuku">
+							<figcaption>Mikki</figcaption>
+							<figcaption class="kiss3"> от <b>2 845 </b>грн</figcaption>
+						</div>
+
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/угловыедиваны/raskladnye-mexanizmy-italyanskix-divanov-2.jpg" class="kuku">
+							<figcaption>Milan</figcaption>
+							<figcaption class="kiss3"> от <b>11 405 </b>грн</figcaption>
+						</div>
+
+						<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+							<img src="img/угловыедиваны/good_15169530822080.jpg" class="kuku">	
+							<figcaption class="kiss2">Modern</figcaption>
+							<figcaption class="kiss3"> от <b>15 190 </b>грн</figcaption>
+						</div>
+					</div>	
+			</div>
+		</div>
+	</div>
+
+
+	<a name="name6"></a>
+
+	<div id="sofa3">
+		<h1>Кровати</h1>
+		<br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50">
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кровати/213318_2018_08_08-19_00_42.png" class="kuku">
+						<figcaption class="kiss2">Hutte</figcaption>
+						<figcaption class="kiss3"> от <b>6 800 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кровати/6476444b5e2b820ebb3fc808e393b335.jpg" class="kuku">
+						<figcaption class="kiss2">Djulia</figcaption>
+						<figcaption class="kiss3"> от <b>9 925 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кровати/0607999001500021277.jpg" class="kuku">
+						<figcaption class="kiss2">Kristina</figcaption>
+						<figcaption class="kiss3"> от <b>6 560 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кровати/Dvuhmestnaya-krovat-chernayj-ES-5042-1.jpg" class="kuku">
+						<figcaption class="kiss2">Nikol</figcaption>
+						<figcaption class="kiss3"> от <b>6 600 </b>грн</figcaption>
+					</div>
+				</div>
+
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.7s" data-wow-offset="50">
+					<div class="col-xs-10 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кровати/krovat_ormatek_domino-800x600.jpg" class="kuku">
+						<figcaption class="kiss2">Florenco</figcaption>
+						<figcaption class="kiss3"> от <b>11 890 </b>грн</figcaption>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<a name="name4"></a>
+
+	<div id="sofa4">
+		<!-- <div class="wow flash" data-wow-duration="6s" data-wow-delay="0.4s" data-wow-offset="50"> -->
+		<h1>Кухни</h1>
+		<!-- </div> -->
+		<br>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.4s" data-wow-offset="50"> 
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/475550636_w640_h640_kuhnya_asteria__zvoditelya.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>12 500 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/800x533.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>12 500 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/kushnya_liza_02.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>4 500 </b>грн</figcaption>
+					</div>
+			
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/italyanskaya-kuhnya-modern-glass-arredo3-1-1920x900.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>7 500 </b>грн</figcaption>
+					</div>
+				</div>
+
+				<div class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="0.7s" data-wow-offset="50">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/cucina-design-gicinque-feenix-gola.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>12 500 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/kuhnya-mdf-plenochnii3.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>2 500 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/th2_kuhnya_skandinaviya_8_5926dff88a734.jpg" class="kuku">
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>4 500 </b>грн</figcaption>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+						<img src="img/кухни/troll.jpg" class="kuku"/>
+						<figcaption class="kiss2">PHILADELFIA</figcaption>
+						<figcaption class="kiss3"> от <b>3 500 </b>грн</figcaption>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+<a name="name5"></a>
+
+	<div id="sofa5">
+		<h3>Последние новости</h3>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+				<div class="col-xs-8 col-sm-6 col-md-4 col-lg-4">
+					<img src="img/nurgadiivan-py3-311913.jpg" class="kuku" id="img1">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					<p >9 ноября,2018</p>
+					<h4><b>Новинка среди диванов!</b></h4>
+					<p>К вашему вниманию, представляем новое поколение европейских диванов высшего качества.</p>
+					<p>Стартовая цена от <b>24 500 </b>грн</p>
+				</div>
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+			</div>
+			<br>
+			<hr>
+			<br>
+			<div class="row">
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+				<div class="col-xs-8 col-sm-6 col-md-4 col-lg-4">
+					<img src="img/xpremier_main.jpg.pagespeed.ic.QvWHIMDMkA.jpg" class="kuku" id="img2">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					<p >15 января,2019</p>
+					<h4><b>Диваны по кошельку!</b></h4>
+					<p>Выходит новая коллекция диванов по доступным ценам, которые вас приятно удивлят.</p>
+				</div>
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+			</div>
+			<br>
+			<hr>
+			<br>
+			<div class="row">
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+				<div class="col-xs-8 col-sm-6 col-md-4 col-lg-4">
+					<img src="img/Сосновый-бор-мебельный-салон.jpg" class="kuku" id="img2">
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					<p >24 января,2019</p>
+					<h4><b>Открытие нового магазина!</b></h4>
+					<p>Наконец-то, рады вам сообщить об открытии нашего нового магазина на Гамарника, 4.</p>
+				</div>
+				<div class="col-sm-1 col-md-2 col-lg-2"></div>
+			</div>
+		</div>
+	</div>
+	
+	<a name="name1"></a>
+
+	<div id="fff">
+		<div class="container">
+			<div class="row centered">
+				<a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+				<a href="#"><i class="fa fa-facebook" title="Facebook"></i></a>
+				<a href="#"><i class="fa fa-vk" title="Vk"></i></a>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>

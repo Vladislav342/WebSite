@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dostavka</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="img/bukvak.ico" type="images/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="gallery.css">
+	<link rel="stylesheet" href="animate.css">
+	<style>
+	body{
+		background: linear-gradient(to bottom right, grey, white);
+	}
+	#br {
+  			background: linear-gradient(to bottom, blue, deepskyblue);  /* подробнее про градиенты */ 
+            -webkit-background-clip: text;  /* подробнее про background-clip */ 
+  			color: transparent;
+		}
+		.suslik{
+			margin-top: 100px;
+			margin-bottom: 200px;
+			
+		}
+		.suslik input{
+			width: 600px!important;
+			height: 50px!important;
+		}
+		.suslik textarea{
+			width: 600px!important;
+			height: 100px!important;
+		}
+		.suslik select{
+			width: 600px!important;
+			height: 50px!important;
+		}
+		h2{
+			margin-top: 100px;
+		text-align: center;
+		font-family: Bradley Hand, cursive;
+	   }
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><p id="br">KONSTANTA</p></a>
+			</div>
+
+				<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="gallery.html" class="fa fa-home" title="Home" id="que"></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="rob">Разное<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="t1">
+								<li><a href="aboutus.html">Про нас</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+								<li><a href="Shops.html">Магазины</a></li>
+							</ul>
+						</li>
+						<li ><a href="Jaloba.html" class="fa fa-envelope" title="Пожаловаться" id="que"></a></li>
+						<li class="active"><a href="#" class="fa fa-truck" title="Доставка" id="que"></a></li>
+						<li><a href="https://www.google.com.ua/?hl=ru" class="glyphicon glyphicon-off" title="Выйти" id="que1"></a></li>
+					</ul>		
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- --------------------------------------------------------------------------------------- -->
+<h2>Доставка</h2>
+<div class="suslik">
+	<div class="container">
+		
+		<form role="form">
+			<div class="form-group">
+				<div class="row centered">
+
+					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<label for="cellphone">Ваш телефон</label>
+				<p><input type="cellphone" class="form-control" id="email" placeholder="+380" maxlength="13" minlength="13"></p>
+				<label>Ваша информация </label>
+				<p><select name="мебель" placeholder="Выберите название дивана">
+					<optgroup label="Прямые диваны">
+						<option>PHILADELFIA</option>
+						<option>Valencia</option>
+						<option>Pavane</option>
+						<option>Shiraz</option>
+						<option>Amelia</option>
+						<option>Aurica</option>
+					</optgroup>
+					<optgroup label="Угловые диваны">
+						<option>Turin</option>
+						<option>Barcelona</option>
+						<option>Bosfor</option>
+						<option>Braun</option>
+						<option>Bozen</option>
+						<option>Verona</option>
+						<option>Dallas</option>
+						<option>Drezden</option>
+						<option>Evropa</option>
+						<option>Mikki</option>
+						<option>Milan</option>
+						<option>Modern</option>
+					</optgroup>
+					<optgroup label="Кровати">
+						<option>Hutte</option>
+						<option>Djulia</option>
+						<option>Kristina</option>
+						<option>Nikol</option>
+						<option>Florenco</option>
+					</optgroup>
+					<optgroup label="Кухни">
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+					</optgroup>
+				</select></p>
+				<p><input type="email" class="form-control" id="email" placeholder="Введите ваш адрес"></p>
+				<p><input type="email" class="form-control" id="email" placeholder="Введите удобное для вас время" maxlength="5"></p>
+				<input type="button" class="btn btn-primary" value="Заказать">
+				</div>
+
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+				</div>
+			</div>
+		</form>
+		</div>
+</div>
+<!-- --------------------------------------------------------------------------------------- -->
+		<div id="fff">
+	<div class="container">
+		<div class="row centered">
+			<a href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+			<a href="#"><i class="fa fa-facebook" title="Facebook"></i></a>
+			<a href="#"><i class="fa fa-vk" title="Vk"></i></a>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</body>
+</html>

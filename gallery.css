@@ -1,0 +1,333 @@
+#headerwrap{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(img/nurgadiivan-py3-311913.jpg) no-repeat center top;
+	height: 100vh;
+	background-size: 100%;
+	background-position: cover;	
+	-webkit-background-size: 100%;
+}
+
+#headerwrap input[placeholder]:focus{
+	/*transform:translate(100px,0);*/
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.2,1.2);
+}
+
+#headerwrap p{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+}
+
+#headerwrap a{
+	text-decoration: none;
+	font-size: 13pt;
+	letter-spacing: 2px;
+	color: red;
+}
+
+#headerwrap blockquote {
+	color: #9DB7E8;
+	margin-left: 66%;
+	position: absolute;
+	top:60%;
+	overflow-y: hidden;
+	width: 30%;
+}
+
+.navbar-brand{
+	font-size: 20pt;
+	letter-spacing: 8px;
+	font-family: "Luna"/*Bradley Hand, cursive*//*Snell Roundhand, cursive*/;
+}
+
+.kuku{
+	width: 100%;
+	height: 300px;
+	margin-right: 0;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.kiss2{
+	text-align: center;
+}
+
+.kiss3{
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.kiss3 b{
+	color: blue;
+}
+
+#fff{
+	background: #2d2d2d;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#fff i{
+	position: relative;
+	color: #bdbdbd;
+	font-size: 25px;
+	left: 49%
+}
+
+#fff i:hover{
+	color: #016BB2;
+}
+
+#bs-navbar-collapse-1 a:hover{
+	color: #016BB2;	
+}
+
+#t1{
+	background-color: #212326;
+}
+
+#rob{
+	font-family:Bradley Hand, cursive;
+}
+
+#t1 a{
+	color: white;
+}
+
+#t1 a:hover{
+	background-color: #26282B;
+}
+
+figcaption{
+	font-weight: bold;
+}
+
+img:hover{
+	border: 2px solid blue;
+	box-shadow: 0 0 30px rgba(0,0,0,15);
+}
+
+#hi{
+	padding-bottom: 40px;
+	padding-top: 10px;
+}
+
+#hello{
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+
+#hello a:hover{
+	color: #016BB2;
+}
+
+#que{
+	font-size: 17px;
+}
+
+#que1{
+	font-size: 17px;
+	color: red;
+}
+
+#sofa1{
+	background: linear-gradient(to bottom right, #bcb4b1, white);
+	margin-top: -60px;;
+	padding-bottom: 40px;
+}/*steelblue*//* deepskyblue*/
+
+#sofa2,#search_sofa2{
+	border: 0 solid grey;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: linear-gradient(to bottom right, #bcb4b1, white);
+	/*background-color: #62bbc1;/* #4bb3fd*/
+	/*background-color: #f7e59e*//*#89d9ff*/
+	margin-top: -20px;
+	padding-bottom: 40px;
+}/*steelblue deepskyblue*/
+
+#sofa3,#search_sofa3{
+	border: 0 solid grey;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: linear-gradient(to bottom right, #bcb4b1, white);
+	/*background-color: #bccde0 /*#C6edff*/
+	margin-top: -20px;
+	padding-bottom: 40px;
+}
+
+#sofa4,#search_sofa4{
+	border: 0 solid grey;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: linear-gradient(to bottom right, #bcb4b1, white);
+	/*background-color: #f7e59e*//*#89d9ff*/
+	margin-top: -20px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-bottom: 40px;
+}
+
+#sofa5{
+	background-color: #bcb4b1;
+	border: 0 solid grey;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	/*background: linear-gradient(to bottom right, deepskyblue, white);*/  
+ 	 /* подробнее про background-clip */ 
+    padding-bottom: 30px;  
+}
+
+#search_sofa4{
+	margin-bottom: -40px;
+}
+
+.poisk{
+	margin-top: 100px;
+}
+
+#ot{
+	margin-bottom: 10px;
+	font-weight: lighter;
+	background: rgba(0,0,0,0.3);
+	border: 1px solid white;
+	border-radius: 4px 4px 4px 4px;
+	font-family: Source Sans Pro;
+	color: white;
+	height: 30px;
+	border-color: skyblue;
+	border-color: skyblue;
+	border-right: hidden;
+	border-left:hidden;
+	border-top: hidden;
+	padding-left: 5px;
+}
+
+#do{
+	margin-bottom: 20px;
+	color: white;
+	font-weight: lighter;
+	background: rgba(0,0,0,0.3);
+	border: 1px solid white;
+	border-radius: 4px 4px 4px 4px;
+	border-color: skyblue;
+	border-right: hidden;
+	border-left:hidden;
+	border-top: hidden;
+	font-family: Source Sans Pro;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.poisk label{
+	color: skyblue;
+}
+
+#put{
+	width: 80px;
+}
+
+.trr{
+	width: 100%;
+		/*overflow: auto;*/
+	height: 230px;	
+}
+
+.trr blockquote,footer{
+	font-size: 1.6vw;
+}
+
+#sofa1 figcaption{
+	text-align: center;
+	color: black;
+}
+
+#sofa1 h1{
+	color: blue;
+	padding-top: 20px;
+	text-align:center;
+}
+
+#sofa2 h1{
+	color: blue;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#sofa2 figcaption{
+	text-align: center;
+	color: black;
+}
+
+#sofa3 h1{
+	color:blue;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#sofa4 h1{
+	text-align: center;
+	color: blue;
+	padding-top: 20px;
+}
+	
+#sofa5{
+	margin-bottom: 0;
+	position: relative;
+	padding-top: 10px;
+}
+
+#sofa5 h3{
+	margin-bottom: 40px;
+	color: blue;
+	letter-spacing: 3px;
+	text-align: right;
+	margin-right: 5%;
+}
+#sofa5 img{
+	width: 100%;
+	height: 200px!important;
+	cursor: zoom-in;
+}
+#sofa5 hr{
+	height: 10px!important;
+	border: 0!important;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset!important;
+}
+.popup{
+	position: absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+}
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	cursor: zoom-out;
+}
+.popup_img {
+	position: fixed;
+	height: 80%;
+   	width: 80%;
+	margin: 10vh;
+	margin-left: 20vh;
+	border: none!important;
+}
+#br {
+  	background: linear-gradient(to bottom, blue, deepskyblue);  /* blue, deepskyblue подробнее про градиенты */ 
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+u{
+	height: 10px!important;
+}
+#time{
+	font-size: 20pt;
+	letter-spacing: 8px;
+	margin-bottom: 5%;
+	color: skyblue;
+}
+
